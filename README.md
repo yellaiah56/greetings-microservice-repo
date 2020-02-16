@@ -61,3 +61,4 @@ Here is a screenshot from sample run of this test suite (the JSON is also availa
 
 _GitHub Webhook_  
 ![GitHub Webhook](notes/github_webkook.jpg)
+Testing GitHub and Jenkins integration

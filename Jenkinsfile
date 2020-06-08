@@ -19,5 +19,14 @@ pipeline {
                 }
             }
         }
+
+        // Install build artifact in local repo
+        stage ('Deploy') {
+            steps {
+                withMaven(maven : 'maven_3_5_2') {
+                    sh 'mvn install'
+                }
+            }
+        }
     }
 }
